@@ -4,6 +4,7 @@ import Cart from '../Cart/Cart';
 import Product from '../Product/Product';
 import './Shop.css';
 import { Link, useLoaderData } from 'react-router-dom';
+import { faStaffSnake } from '@fortawesome/free-solid-svg-icons';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
@@ -103,6 +104,9 @@ const Shop = () => {
             setCurrentPage(currentPage + 1)
         }
     }
+    
+
+    const myGit=()=>{}
 
     return (
         <div className='shop-container'>
